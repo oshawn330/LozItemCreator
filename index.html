@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Equipment Tracker</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Track Your Equipment</h2>
+            <form id="tracker-form">
+                <label for="equipment-name">Equipment Name:</label>
+                <input type="text" id="equipment-name" required>
+                <label for="status">Status:</label>
+                <select id="status">
+                    <option value="available">Available</option>
+                    <option value="checked-out">Checked Out</option>
+                    <option value="maintenance">Maintenance</option>
+                </select>
+                <button type="submit">Add Equipment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Equipment Tracker</p>
+    </footer>
+</body>
+</html>
